@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+body{
+	font-family: "San Francisco";
+	color: #486775;
+}
+.nav-bar{
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+li.item{
+	display: contents;
+}
+li.item a{
+	text-decoration: none;
+	margin: 0 10px 5px;
+	color: hsl(216, 95%, 53%);
+}
+li.item a:hover{
+	color:red;
+}
+.menu{
+	margin: 2rem;
+}
+.content-header{
+	text-align: center;
+}
+.header-50-left{
+	width: 50%;
+	float:left;
+}
+.header-50-right{
+	width: 50%;
+	float: right;;
+	text-align: -webkit-auto;
+}
+.header{
+	margin: 0 15rem 15rem;
+}
+.box-text{
+    margin-left: 8rem;
+}
+.box-content{
+	margin-left: 16rem;
+}
+.banner{
+	width: 28%;
+}
+/*dynamic text*/
+@-webkit-keyframes my {
+	 0% { color: #F8CD0A; } 
+	 50% { color: #fff;  } 
+	 100% { color: #F8CD0A;  } 
+ }
+ @-moz-keyframes my { 
+	 0% { color: #F8CD0A;  } 
+	 50% { color: #fff;  }
+	 100% { color: #F8CD0A;  } 
+ }
+ @-o-keyframes my { 
+	 0% { color: #F8CD0A; } 
+	 50% { color: #fff; } 
+	 100% { color: #F8CD0A;  } 
+ }
+ @keyframes my { 
+	 0% { color: #1581fa;  } 
+	 50% { color: #F44336;  }
+	 100% { color: #FF9800;  } 
+ } 
+.hello-text{
+	font-family: monospace;
+	/*background:#3d3d3d;*/
+	font-size:24px;
+	font-weight:bold;
+	-webkit-animation: my 700ms infinite;
+	-moz-animation: my 700ms infinite; 
+	-o-animation: my 700ms infinite; 
+	animation: my 700ms infinite;
+
+}
+img.avatar{
+    width: 11rem;
+}

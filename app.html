@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home  Family</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon"/>
+	<script type="text/javascript" src="assets/js/data.min.js"></script>
+</head>
+<body>
+	
+<div id="app">
+<main-bar></main-bar>
+ <div class="content-header">
+ <!-- Content here... -->
+ <nav><router-view></router-view></nav>
+</div>
+</div>
+
+
+
+<!-- Thanh bar -->
+<template id="mainbar">
+  <nav class="nav-bar">
+<div class="menu">
+<li class="item"><a><router-link to="/">Home</a></li>|
+<li class="item"><a><router-link to="/myprofile">My Profile</router-link></a></li>|
+<li class="item"><a><router-link to="/father">Father</router-link></a></li>|
+<li class="item"><a><router-link to="/mother">Mother</router-link></a></li>|
+<li class="item"><a><router-link to="brother">Brother</router-link></a></li>|
+<li class="item"><a><router-link to="/sister">Sister</router-link></a></li>
+<div>
+</nav>
+</template>
+
+
+<template id="profile-page">
+<nav>
+	<div class="header">
+	<div class="header-50-left">
+		<div class="box-content">
+			<img class="avatar" src="assets/img/avatar/me.svg">
+			<p>AnC Nguyen</p>
+		</div>
+	</div>
+	<div class="header-50-right">
+		<div class="box-text">
+			<p>Name:&nbsp;&nbsp;&nbsp;  AnC Nguyen</p>
+			<p>S/N:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  13/07/1997</p>
+			<p>Phone:&nbsp;&nbsp; 0979187988</p>
+			<p>Gmail:&nbsp;&nbsp;&nbsp;&nbsp; minhphuongptit97@gmail.com</p>
+			<p>Work:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Student</p>
+		</div>
+	</div>
+	</div>
+</nav>
+</template>
+<template id="father-page">
+<nav>
+	<div class="header">
+	<div class="header-50-left">
+		<div class="box-content">
+			<img class="avatar" src="assets/img/avatar/father.svg">
+			<p>Tien Nguyen</p>
+		</div>
+	</div>
+	<div class="header-50-right">
+		<div class="box-text">
+			<p>Name:&nbsp;&nbsp;&nbsp;  Tien Nguyen</p>
+			<p>S/N:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  06/08/1965</p>
+			<p>Phone:&nbsp;&nbsp; 0984037819</p>
+			<p>Gmail:&nbsp;&nbsp;&nbsp;&nbsp; Not use</p>
+			<p>Work:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Worker</p>
+		</div>
+	</div>
+	</div>
+</nav>
+</template>
+<template id="mother-page">
+<nav>
+	<div class="header">
+	<div class="header-50-left">
+		<div class="box-content">
+			<img class="avatar" src="assets/img/avatar/mother.svg">
+			<p>Tien Nguyen</p>
+		</div>
+	</div>
+	<div class="header-50-right">
+		<div class="box-text">
+			<p>Name:&nbsp;&nbsp;&nbsp;  Tu Luong</p>
+			<p>S/N:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  02/07/1973</p>
+			<p>Phone:&nbsp;&nbsp; 0869159609</p>
+			<p>Gmail:&nbsp;&nbsp;&nbsp;&nbsp; Not use</p>
+			<p>Work:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Worker</p>
+		</div>
+	</div>
+	</div>
+</nav>
+</template>
+<template id="brother-page">
+<nav>
+	<div class="header">
+	<div class="header-50-left">
+		<div class="box-content">
+			<img class="avatar" src="assets/img/avatar/brother.svg">
+			<p>Khanh Nguyen</p>
+		</div>
+	</div>
+	<div class="header-50-right">
+		<div class="box-text">
+			<p>Name:&nbsp;&nbsp;&nbsp;  Khanh Nguyen</p>
+			<p>S/N:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  16/09/1996</p>
+			<p>Phone:&nbsp;&nbsp; 0988867460</p>
+			<p>Gmail:&nbsp;&nbsp;&nbsp;&nbsp; Not use</p>
+			<p>Work:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pharmacist</p>
+		</div>
+	</div>
+	</div>
+</nav>
+</template>
+<template id="sister-page">
+<nav>
+	<div class="header">
+	<div class="header-50-left">
+		<div class="box-content">
+			<img class="avatar" src="assets/img/avatar/sister.svg">
+			<p>Hang Nga</p>
+		</div>
+	</div>
+	<div class="header-50-right">
+		<div class="box-text">
+			<p>Name:&nbsp;&nbsp;&nbsp;  Hang Nga</p>
+			<p>S/N:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Private</p>
+			<p>Phone:&nbsp;&nbsp; Not use</p>
+			<p>Gmail:&nbsp;&nbsp;&nbsp;&nbsp; Not use</p>
+			<p>Work:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The moon manager</p>
+		</div>
+	</div>
+	</div>
+</nav>
+</template>
+<template id="home-page">
+<nav>
+	<div class="header">
+	<br>
+    <h2 class="hello-text">WELCOME TO MY FAMILY</h2>
+    <img class="banner" src="assets/img/banner.svg">
+	</div>
+</nav>
+</template>
+
+
+
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="assets/js/data.router.min.js"></script>
+<script type="text/javascript" src="assets/js/router.js"></script>
+</body>
+
+</html>
